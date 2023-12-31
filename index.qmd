@@ -1,6 +1,6 @@
 ---
-title: "Easy Statistical Modeling, Visualization, and Reporting"
-subtitle: "Center for Health Innovation, Research, Action and Learning – Bangladesh"
+title: "Easystats for Biomedical Researchers"
+subtitle: "A Practical Guide for Easy Statistical Modeling, Visualization, and Reporting"
 editor: source
 ---
 
@@ -8,192 +8,69 @@ editor: source
 
 ------------------------------------------------------------------------
 
-🗓December 2 & 3,  2022 \| 8:00am - 12:00pm BDT
+🗓January 26 & 27,  2024 \| 8:00am - 11:00pm BDT
 
-🏨 Virtual Weekend Workshop 
+🏨 Virtual Workshop 
 
-💥 **Register** with [Google Forms](https://forms.gle/NHSTSwgbCDdQzuxKA) 
+💥 **Register** with [Google Forms](#) 
 
-💥 **Registration Fee**: 300 BDT (for students), 500BDT (for professionals)
+💥 **Registration Fee**: 510 BDT (for students), 1020 BDT (for professionals)
 
-📝 To register for the workshop, follow instructions in the email "*Weekend Workshops*" you received after registration. 
+📝 To join dedicated workshop Telegram channel, follow instructions in the email "*Workshops*" you received after registration. 
 
 ------------------------------------------------------------------------
 
-# Overview
+# Workshop Overview
+Welcome to "Easystats for Biomedical Researchers - A Practical Guide for Easy Statistical Modeling, Visualization, and Reporting." This workshop is designed to empower biomedical researchers with the skills and knowledge needed to conduct statistical analyses with ease using `{easystats}` R package. In the fast-paced field of biomedical research, effective statistical modeling, visualization, and reporting are crucial components for drawing meaningful conclusions from data. This workshop aims to demystify statistical analysis, making it accessible and user-friendly for researchers.
 
-The purpose of this course is to provide a practical introduction to the programming language R for researchers in any field. We are convinced that R is a powerful tool that can ultimately make your life easier by enabling efficient solutions to your data analytical problems. Also, R is completely free. Who doesn't like that?
-
-This course aims to facilitate the participant's first steps in R and equip them with the tools and understanding to expand their technical know-how according to the needs of their specific research. It is neither a computer science nor a methodological course, but aimed at the practical needs of empirically working researchers.
-
-You might think of R as an overly complicated status symbol for ambitious quantitative researchers. This is not quite true anymore as R has become much more user-friendly over the last years. Think of R is your friend and helper if you are interested in doing: insightful graphs, regression analysis, QCA, quantitative text analysis, web-scraping, data visualization, systematic hand-coding of documents, formal modelling, etc.
-
-While this course is most likely to attract people with solid statistical training who usually use Stata or SPSS, it can easily be attended by a broader audience. All you really need to know is \[I\] the structure of a typical dataset in the social sciences (rows are observations, columns are variables) and \[II\] the logic of dependent and independent variables.
-
-You will learn how to use R to handle your data, describe it, analyse it (regressions), and transform it into beautiful graphs. At the end, you will have an idea of what R can do, and the resources to teach yourself more where needed.
-
-## What is R?
-R is an open source language and environment for statistical computing, data mining, modeling, and data graphics. It provides a wide variety of statistical and graphical techniques such as linear and non-linear modeling, statistical tests, time series analysis, classification, and clustering. 
-
-R is one of the most used business analytics tools. For example, Facebook uses R for behavior analysis related to status updates and profile pictures. Google uses it to analyze advertising effectiveness and economic forecasting. Twitter leverages R for data visualization and semantic clustering. In the 2016 data science salary survey conducted by O'Reilly, R was ranked second in a category of programming languages for data science. 
-
-
-## Learning outcomes 
-
-By the end of the course students you shall be confident and equipped with all the
-knowledge required to perform analytical activities in R. Specifically, 
-
-- Understand the fundamental syntax of R through readings, practice exercises, demonstrations, and writing R code.
-- Apply critical programming language concepts such as data types, iteration, control structures, functions, and boolean operators by writing R programs and through examples
-- Import a variety of data formats into R using RStudio
-- Prepare or tidy datas for in preparation for analysis
-- Query data using SQL and R
-- Analyze a data set in R and present findings using the appropriate R packages
-- Visualize data attributes using ggplot2 and other R packages. 
+## What is easystats?
+Easystats is a user-friendly and powerful R package that simplifies the statistical analysis process. It provides a set of functions and tools specifically tailored for researchers who may not have an extensive background in statistics. Easystats is designed to streamline the workflow, allowing researchers to perform complex statistical analyses without the steep learning curve traditionally associated with statistical software.
 
 
 
-## Purpose of statistical programming software
 
-Unlike spreadsheet applications (like Excel) or point-and-click statistical analysis software (SPSS), statistical programming software is based around a script-file where the user writes a series of commands to be performed,
+## Learning objectives 
+By the end of this workshop, participants will:
 
-**Advantages of statistical programming software**
+- **Understand the Basics of Easystats:** Gain a solid understanding of the key features and functions offered by easystats, making statistical analysis more accessible.
 
--   Data analysis process is reproducible and transparent.
+- **Conduct Statistical Modeling:** Learn how to use easystats to perform various statistical models commonly used in biomedical research, such as linear regression, logistic regression, and mixed-effects models.
 
--   Due to the open-ended nature of language-based programming, there is far more versatility and customizability in what you can do with data.
+- **Create Informative Visualizations:** Explore the visualization capabilities of easystats, enabling participants to effectively communicate their findings through clear and compelling charts and graphs.
 
--   *Typically* statistical programming software has a much more comprehensive range of built-in analysis functions than spreadsheets etc.
+- **Enhance Reporting Skills:** Acquire skills in reporting statistical results in a concise and interpretable manner, suitable for scientific publications and presentations.
 
-## Why Do We Need Analytics?
-
-Before an answer to above question, let us see some of the problems and their solutions in R in multiple domains.
-
-### Healthcare
-
--   **Problem:** Every year millions of people are admitted in hospital and billions are spent annually just in the admission process.
-
--   **Solution:** Given the patient history and medical history, a predictive model can be built to identify who is at risk for hospitalization and to what extent the medical equipment should be scaled.
-
-### Insurance
-
--   **Problem:** Insurance extensively depends on forecasting. It is difficult to decide which policy to accept orreject.
-
--   **Solution:** By using the continuous credit report as input, we can create a model in R that will not only assess risk appetite but also make a predictive forecast as well.
-
-### Banking
-
--   **Problem:** Large amount of customer data is generated every day in Banks. While dealing with millions of customers on regular basis, it becomes hard to track their mortgages.
-
--   **Solution:** R builds a custom model that maintains the loans provided to every individual customer which helps us to decide the amount to be paid by the customer over time.
-
-## Why R?
-
--   R is a programming and statistical language.
--   R is used for data Analysis and Visualization.
--   R is simple and easy to learn, read and write.
--   R is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc.
-
-## Who uses R?
-
--   The Consumer Financial Protection Bureau uses R for data analysis
--   Statisticians at John Deere use R for time series modeling and geospatial analysis in a reliable and reproducible way.
--   Bank of America uses R for reporting.
--   R is part of technology stack behind Foursquare's famed recommendation engine.
--   ANZ, the fourth largest bank in Australia, using R for credit risk analysis.
--   Google uses R to predict Economic Activity.
--   Mozilla, the foundation responsible for the Firefox web browser, uses R to visualize Web activity
-
-## Evolution of R
-
--   R is an implementation of S programming language which was created by John Chambers at Bell Labs.
--   R was initially written by Ross Ihaka and Robert Gentleman at the Department of Statistics of the University of Auckland in Auckland, New Zealand.
--   R made its first public appearance in 1993.
--   A large group of individuals has contributed to R by sending code and bug reports.Since mid-1997 there has been a core group (the "R Core Team") who can modify the R source code archive.
--   In the year 2000 R 1.0.0 released.
--   R 3.0.0 was released in 2013.
-
-## Features of R
-
--   R supports procedural programming with functions and object-oriented programming with generic functions. Procedural programming includes procedure, records, modules, and procedure calls. While object-oriented programming languageincludes class, objects, and functions.
--   Packages are part of R programming. Hence, they are useful in collecting sets of R functions into a single unit.
--   R is a well-developed, simple and effective programming language which includes conditionals, loops, user defined recursive functions and input and output facilities.
--   R has an effective data handling and storage facility,
--   R provides a suite of operators for calculations on arrays, lists, vectors and matrices.
--   R provides a large, coherent and integrated collection of tools for data analysis. It provides graphical facilities for data analysis and display either directly at the computer or printing at the papers.
--   Rs programming features include database input, exporting data, viewing data, variable labels, missing data, etc.
--   R is an interpreted language. So we can access it through command line interpreter.
--   R supports matrix arithmetic.
--   R, SAS, and SPSS are three statistical languages. Of these three statistical languages, R is the only an open source.
-
-## Comparison to other statistical programming software
-
--   **Stata**: The traditional choice of (academic) economists.
-
-    -   Stata is more specifically econometrics focused and is much more command-oriented. Easier to use for standard applications, but if there's not a Stata command for what you want to do, it's harder to write something yourself.\
-    -   Stata is also very different than R in that you can only ever work with one dataset at a time, while in R, it's typical to have a number of data objects in the environment.
-
--   **SAS**: Similar to Stata, but more commonly used in business & the private sector, in part because it's typically more convenient for massive datasets. Otherwise, I think it's seen as a bit older and less user-friendly.
-
--   **Python**: Another option based more on programming from scratch and with less prewritten commands. Python isn't specific to math & statistics, but instead is a general programming language used across a range of fields.\
-    Probably the most similar software choice to R at this point, with better general use (and programming ease) at the cost of less package development specific to econometrics/data analysis.
-
--   **Matlab**: Popular in macroeconomics and theory work, not so much in empirical work. Matlab is powerful, but is much more based on programming "from scratch" using matrices and mathematical expressions.
-
-## Useful resources for learning R
-
--   **DataCamp:** interactive online lessons in R.
-
-    -   Some of the courses are free (particularly community-written lessons like the one you'll do today), but for paid courses, DataCamp costs about 300 SEK / mo.
-
--   **RStudio Cheat Sheets:** Very helpful 1-2 page overviews of common tasks and packages in R.
-
--   **Quick-R:** Website with short example-driven overviews of R functionality.
-
--   **StackOverflow:** Part of the Stack Exchange network, StackOverflow is a Q&A community website for people who work in programming. Tons of incredibly good R users and developers interact on StackExchange, so it's a great place to search for answers to your questions.
-
--   **R-Bloggers:** Blog aggregagator for posts about R. Great place to learn really cool things you can do in R.
-
--   **R for Data Science:** Online version of the book by Hadley Wickham, who has written many of the best packages for R, including the Tidyverse, which we will cover. 
+- **Hands-On Practice:** Engage in practical exercises and case studies to reinforce the concepts learned during the workshop, ensuring participants leave with practical skills they can apply immediately to their research.
 
 
-## Textbook 
-
-- Wickham, H. & Grolemund, G. (2018). for Data Science. O’Reilly: New York. Available for free at http://r4ds.had.co.nz (FREE)
-
-- Sosulski, K. (2018). R Fundamentals. Bookdown: New York. Available at: http://becomingvisual.com/rfundamentals (FREE)
 
 
 ## Required software
-- R: http://www.r-project.org/ (FREE)
-- RStudio (additional libraries required): http://www.rstudio.com/ (FREE)
+- R: <http://www.r-project.org/> (FREE)
+- RStudio (additional libraries required): <http://www.rstudio.com/> (FREE)
 
 
 ## Recording of classes
 Class lectures will be recorded automatically using cloud. The links will be posted to CHIRAL Classes when they are available. 
 
 
-## Learning resources
-- R Project: http://www.r-project.org/
-- RStudio (additional libraries required): http://www.rstudio.com
-- Quick-R http://www.statmethods.net/
-- Google’s R Style Guide:http://google-styleguide.googlecode.com/svn/trunk/Rguide.xml
-
-
-
 
 
 ## Is this course for me?
+This workshop is tailored for biomedical researchers at various career stages, including:
 
-If your answer to any of the following questions is "yes", then this is the right workshop for you.
+- **Early Career Researchers:** Those looking to build a strong foundation in statistical analysis for their research projects.
 
--   Do you make summary tables in R (data, survey data, regression models, time-to-event data, adverse event reports)?
+- **Clinical Researchers:** Professionals involved in clinical trials and medical research seeking to enhance their statistical skills.
 
--   Do you want your workflow to be reproducible?
+- **Laboratory Scientists:** Researchers working in laboratory settings aiming to effectively analyze and interpret experimental data.
 
--   Are you often frustrated with the immense amount of code required to create great-looking tables in R?
+- **Postgraduate Students:** Master's and Ph.D. students in biomedical fields who want to strengthen their statistical analysis capabilities.
 
-The workshop is designed for those with some experience in R. It will be expected that you can perform basic data manipulation. Experience with the {tidyverse} and the `%>%` operator is a plus, but not required.
+- **Undergraduate Students:** If you are an undergraduate student aspiring to delve into the world of statistical analysis in biomedical research, this workshop provides a practical and accessible introduction. You will gain valuable skills that can be applied to your coursework, research projects, and future academic pursuits.
+
+- **Anyone in Biomedical Research:** If you work with data in a biomedical context and want to improve your statistical analysis, visualization, and reporting skills, this workshop is for you.
+
 
 ## Prework
 
@@ -207,11 +84,9 @@ Before attending the workshop please have the following installed and configured
 
     ``` r
     instll_pkgs <- 
-      c("gtsummary", "tidyverse", "labelled", "usethis", 
-        "causaldata", "fs", "skimr", "car", "emmeans")
+      c("tidyverse", "gtsummary", "easystats")
     install.packages(instll_pkgs)
     ```
-
 -   Ensure you can knit R markdown documents
 
     -   Open RStudio and create a new Rmarkdown document
@@ -229,26 +104,28 @@ Before attending the workshop please have the following installed and configured
 
 -   Please be aware that there is the option to use closed captioning:
 
-## Instructors
 
-#### Md. Jubayer Hossain
 
-![](images/JHossain.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Jubayer" width="200"}
+## Instructor 
+### Bio
+![](images/JHossain.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Jubayer" width="200"} 
 
-[Md. Jubayer Hossain]() is the Founder and Data Analyst at [CHIRAL Bangladesh](). CHIRAL Bangladesh is a non-profit organization dedicated to health research to improve lives in Bangladesh. He aspires to maximize the quality of life of the human around me by working at the intersection of education, technology, and health research. His research interests include health data science and machine learning in healthcare.
+Hi, I am [Jubayer](https://hossainlab.github.io/), a highly motivated biomedical research enthusiasts with a Master of Science in Microbiology focus on public health and health data science. Research experience designing and implementing projects for biomedical data analysis (including next‑generation sequencing, RNA‑seq , and ssRNA‑seq ). I am interested in applying machine learning/deep learning tools and techniques in the context of disease diagnosis and large data analytics for public health while focusing on bridging the gap between computational and experimental laboratories through highly engaging and fruitful collaborations
 
-<br/>
+Python is my primary language for data analysis and machine learning. I also have a basic understanding of R, Julia, SPSS, QGIS, and SQL.
 
-#### Md. Wahidul Islam
+This [page](https://hossainlab.github.io/) highlights my teaching and research projects. Please reach out if you want to collaborate or have questions.
 
-![](images/wahidul.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Wahidul" width="200"}
+### Skills 
+**Programming Languages:** Python, R, SQL, Julia, JavaScript; **Data Science:** scikit-learn, PyCaret, Dask, PySpark; **GIS & Remote Sensing:** ArcGIS, Geopandas, Xarray, Giovani; **Analytics Softwares:** SPSS, PowerBI, Microsoft Excel; **Survey Tools:** RedCap, KoboToolBox, EpiCollect, Google Forms; **Academic Writing Tools:** Microsoft Word, LaTeX, Mendeley; **Bioinformatics:** BioPython, Bioconductor, BioPandas, Galaxy, NGS, RNASeq, ssRNASeq; **Miscellaneous Skills:** UNIX, Version Control(Git), Web Scraping, APIs.
 
-Wahidul Islam is an undergraduate student in the Department of Microbiology at Jagannath University, Dhaka, Bangladesh. Bioinformatics, Immunology, Cell Biology, Biostatistics, Public health, and Microbiology are some of his research interests. Currently, he is working as a research assistant in Population Health Studies Division & Genomic Data Science Center at CHIRAL Bangladesh. He also leads the seminar and workshop team at CHIRAL Bangladesh.
 
-<br/>
+### Selected Publications 
+1. **Hossain, M.J.**, Islam, M.W., Munni, U.R. et al. Health-related quality of life among thalassemia patients in Bangladesh using the SF-36 questionnaire. Scientific Reports 13, 7734 (2023). <https://doi.org/10.1038/s41598-023-34205-9>
+2. Towhid, S. T., **Hossain, M. J.**, Sammo, M. A. S., & Akter, S. (2022). Perception of Students on Antibiotic Resistance and Prevention: An Online, Community-Based Case Study from Dhaka, Bangladesh. European Journal of Biology and Biotechnology, 3(3), 14–19. <https://doi.org/10.24018/ejbio.2022.3.3.341>
+3. **Hossain, M.J.**, Towhid ST, Sultana S, Mukta SA, Gulshan R, Miah MS (2022). *Knowledge and Attitudes towards Thalassemia among Public University Students in Bangladesh*. Microbial Bioactives, 5(2), <https://doi.org/10.25163/microbbioacts.526325>.
 
-#### Muhibullah Shahjahan
 
-![](images/muhibullah.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of muhibullah" width="200"} 
 
-Muhibullah is an undergraduate student in the Department of Microbiology at Jagannath University and health data analysis, bioinformatics are some of his research interests. Currently, he is working as a research assistant at CHIRAL Bangladesh.
+
+

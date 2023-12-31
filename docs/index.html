@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Easy Statistical Modeling, Visualization, and Reporting</title>
+<title>Easy Statistical Modeling, Visualization, and Reporting - Easystats for Biomedical Researchers</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,7 +64,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./material.html" rel="next">
-<link href="./images/trans - gt.png" rel="icon" type="image/png">
+<link href="./images/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -96,16 +96,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<meta property="og:title" content="Easy Statistical Modeling, Visualization, and Reporting">
-<meta property="og:description" content="Center for Health Innovation, Research, Action and Learning – Bangladesh">
+<meta property="og:title" content="Easy Statistical Modeling, Visualization, and Reporting - Easystats for Biomedical Researchers">
+<meta property="og:description" content="A Practical Guide for Easy Statistical Modeling, Visualization, and Reporting">
 <meta property="og:image" content="https://chiraltraining.github.io/easystats/images/JHossain.jpg">
 <meta property="og:site-name" content="Easy Statistical Modeling, Visualization, and Reporting">
-<meta name="twitter:title" content="Easy Statistical Modeling, Visualization, and Reporting">
-<meta name="twitter:description" content="Center for Health Innovation, Research, Action and Learning – Bangladesh">
-<meta name="twitter:image" content="https://chiraltraining.github.io/easystats//images/two-hex-logo.png">
+<meta name="twitter:title" content="Easy Statistical Modeling, Visualization, and Reporting - Easystats for Biomedical Researchers">
+<meta name="twitter:description" content="A Practical Guide for Easy Statistical Modeling, Visualization, and Reporting">
+<meta name="twitter:image" content="https://chiraltraining.github.io/easystats//images/logo_wall.png">
 <meta name="twitter:creator" content="@hossainlab">
-<meta name="twitter:image-height" content="1080">
-<meta name="twitter:image-width" content="1920">
+<meta name="twitter:image-height" content="866">
+<meta name="twitter:image-width" content="1200">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -133,10 +133,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/Rlogo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
-      <div class="sidebar-tools-main">
-    <a href="https://github.com/hossainlab/" rel="" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
+      <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/chiraltraining/" rel="" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
+    <a href="https://www.facebook.com/chiralbd.org" rel="" title="Facebook" class="quarto-navigation-tool px-1" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+    <a href="https://twitter.com/chiralbd" rel="" title="Twitter" class="quarto-navigation-tool px-1" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+    <a href="https://www.linkedin.com/company/chiral-bangladesh/mycompany/?viewAsMember=true" rel="" title="LinkedIn" class="quarto-navigation-tool px-1" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
 </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -160,14 +163,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sessions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Sessions</span></a>
+  <a href="./setup.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Setup</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./q-and-a.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Workshop Q &amp; A</span></a>
+ <span class="menu-text">Q &amp; A</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -186,31 +189,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <li><a href="#workshop-overview" id="toc-workshop-overview" class="nav-link active" data-scroll-target="#workshop-overview">Workshop Overview</a>
   <ul class="collapse">
-  <li><a href="#what-is-r" id="toc-what-is-r" class="nav-link" data-scroll-target="#what-is-r">What is R?</a></li>
-  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning outcomes</a></li>
-  <li><a href="#purpose-of-statistical-programming-software" id="toc-purpose-of-statistical-programming-software" class="nav-link" data-scroll-target="#purpose-of-statistical-programming-software">Purpose of statistical programming software</a></li>
-  <li><a href="#why-do-we-need-analytics" id="toc-why-do-we-need-analytics" class="nav-link" data-scroll-target="#why-do-we-need-analytics">Why Do We Need Analytics?</a>
-  <ul class="collapse">
-  <li><a href="#healthcare" id="toc-healthcare" class="nav-link" data-scroll-target="#healthcare">Healthcare</a></li>
-  <li><a href="#insurance" id="toc-insurance" class="nav-link" data-scroll-target="#insurance">Insurance</a></li>
-  <li><a href="#banking" id="toc-banking" class="nav-link" data-scroll-target="#banking">Banking</a></li>
-  </ul></li>
-  <li><a href="#why-r" id="toc-why-r" class="nav-link" data-scroll-target="#why-r">Why R?</a></li>
-  <li><a href="#who-uses-r" id="toc-who-uses-r" class="nav-link" data-scroll-target="#who-uses-r">Who uses R?</a></li>
-  <li><a href="#evolution-of-r" id="toc-evolution-of-r" class="nav-link" data-scroll-target="#evolution-of-r">Evolution of R</a></li>
-  <li><a href="#features-of-r" id="toc-features-of-r" class="nav-link" data-scroll-target="#features-of-r">Features of R</a></li>
-  <li><a href="#comparison-to-other-statistical-programming-software" id="toc-comparison-to-other-statistical-programming-software" class="nav-link" data-scroll-target="#comparison-to-other-statistical-programming-software">Comparison to other statistical programming software</a></li>
-  <li><a href="#useful-resources-for-learning-r" id="toc-useful-resources-for-learning-r" class="nav-link" data-scroll-target="#useful-resources-for-learning-r">Useful resources for learning R</a></li>
-  <li><a href="#textbook" id="toc-textbook" class="nav-link" data-scroll-target="#textbook">Textbook</a></li>
+  <li><a href="#what-is-easystats" id="toc-what-is-easystats" class="nav-link" data-scroll-target="#what-is-easystats">What is easystats?</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
   <li><a href="#required-software" id="toc-required-software" class="nav-link" data-scroll-target="#required-software">Required software</a></li>
   <li><a href="#recording-of-classes" id="toc-recording-of-classes" class="nav-link" data-scroll-target="#recording-of-classes">Recording of classes</a></li>
-  <li><a href="#learning-resources" id="toc-learning-resources" class="nav-link" data-scroll-target="#learning-resources">Learning resources</a></li>
   <li><a href="#is-this-course-for-me" id="toc-is-this-course-for-me" class="nav-link" data-scroll-target="#is-this-course-for-me">Is this course for me?</a></li>
   <li><a href="#prework" id="toc-prework" class="nav-link" data-scroll-target="#prework">Prework</a></li>
   <li><a href="#zoom-working-virtually" id="toc-zoom-working-virtually" class="nav-link" data-scroll-target="#zoom-working-virtually">Zoom + Working Virtually</a></li>
-  <li><a href="#instructors" id="toc-instructors" class="nav-link" data-scroll-target="#instructors">Instructors</a></li>
+  <li><a href="#instructor" id="toc-instructor" class="nav-link" data-scroll-target="#instructor">Instructor</a>
+  <ul class="collapse">
+  <li><a href="#bio" id="toc-bio" class="nav-link" data-scroll-target="#bio">Bio</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#selected-publications" id="toc-selected-publications" class="nav-link" data-scroll-target="#selected-publications">Selected Publications</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/hossainlab/clinical-reporting-gtsummary-rmed/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/hossainlab/clinical-reporting-gtsummary-rmed/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -220,8 +213,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Easy Statistical Modeling, Visualization, and Reporting</h1>
-<p class="subtitle lead">Center for Health Innovation, Research, Action and Learning – Bangladesh</p>
+<h1 class="title">Easystats for Biomedical Researchers</h1>
+<p class="subtitle lead">A Practical Guide for Easy Statistical Modeling, Visualization, and Reporting</p>
 </div>
 
 
@@ -238,184 +231,52 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <!-- https://github.com/rstudio-conf-2022/teach-ds -->
 <hr>
-<p>🗓December 2 &amp; 3, 2022 | 8:00am - 12:00pm BDT</p>
-<p>🏨 Virtual Weekend Workshop</p>
-<p>💥 <strong>Register</strong> with <a href="https://forms.gle/NHSTSwgbCDdQzuxKA">Google Forms</a></p>
-<p>💥 <strong>Registration Fee</strong>: 300 BDT (for students), 500BDT (for professionals)</p>
-<p>📝 To register for the workshop, follow instructions in the email “<em>Weekend Workshops</em>” you received after registration.</p>
+<p>🗓January 26 &amp; 27, 2024 | 8:00am - 11:00pm BDT</p>
+<p>🏨 Virtual Workshop</p>
+<p>💥 <strong>Register</strong> with <a href="#">Google Forms</a></p>
+<p>💥 <strong>Registration Fee</strong>: 510 BDT (for students), 1020 BDT (for professionals)</p>
+<p>📝 To join dedicated workshop Telegram channel, follow instructions in the email “<em>Workshops</em>” you received after registration.</p>
 <hr>
-<section id="overview" class="level1">
-<h1>Overview</h1>
-<p>The purpose of this course is to provide a practical introduction to the programming language R for researchers in any field. We are convinced that R is a powerful tool that can ultimately make your life easier by enabling efficient solutions to your data analytical problems. Also, R is completely free. Who doesn’t like that?</p>
-<p>This course aims to facilitate the participant’s first steps in R and equip them with the tools and understanding to expand their technical know-how according to the needs of their specific research. It is neither a computer science nor a methodological course, but aimed at the practical needs of empirically working researchers.</p>
-<p>You might think of R as an overly complicated status symbol for ambitious quantitative researchers. This is not quite true anymore as R has become much more user-friendly over the last years. Think of R is your friend and helper if you are interested in doing: insightful graphs, regression analysis, QCA, quantitative text analysis, web-scraping, data visualization, systematic hand-coding of documents, formal modelling, etc.</p>
-<p>While this course is most likely to attract people with solid statistical training who usually use Stata or SPSS, it can easily be attended by a broader audience. All you really need to know is [I] the structure of a typical dataset in the social sciences (rows are observations, columns are variables) and [II] the logic of dependent and independent variables.</p>
-<p>You will learn how to use R to handle your data, describe it, analyse it (regressions), and transform it into beautiful graphs. At the end, you will have an idea of what R can do, and the resources to teach yourself more where needed.</p>
-<section id="what-is-r" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-r">What is R?</h2>
-<p>R is an open source language and environment for statistical computing, data mining, modeling, and data graphics. It provides a wide variety of statistical and graphical techniques such as linear and non-linear modeling, statistical tests, time series analysis, classification, and clustering.</p>
-<p>R is one of the most used business analytics tools. For example, Facebook uses R for behavior analysis related to status updates and profile pictures. Google uses it to analyze advertising effectiveness and economic forecasting. Twitter leverages R for data visualization and semantic clustering. In the 2016 data science salary survey conducted by O’Reilly, R was ranked second in a category of programming languages for data science.</p>
+<section id="workshop-overview" class="level1">
+<h1>Workshop Overview</h1>
+<p>Welcome to “Easystats for Biomedical Researchers - A Practical Guide for Easy Statistical Modeling, Visualization, and Reporting.” This workshop is designed to empower biomedical researchers with the skills and knowledge needed to conduct statistical analyses with ease using <code>{easystats}</code> R package. In the fast-paced field of biomedical research, effective statistical modeling, visualization, and reporting are crucial components for drawing meaningful conclusions from data. This workshop aims to demystify statistical analysis, making it accessible and user-friendly for researchers.</p>
+<section id="what-is-easystats" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-easystats">What is easystats?</h2>
+<p>Easystats is a user-friendly and powerful R package that simplifies the statistical analysis process. It provides a set of functions and tools specifically tailored for researchers who may not have an extensive background in statistics. Easystats is designed to streamline the workflow, allowing researchers to perform complex statistical analyses without the steep learning curve traditionally associated with statistical software.</p>
 </section>
-<section id="learning-outcomes" class="level2">
-<h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
-<p>By the end of the course students you shall be confident and equipped with all the knowledge required to perform analytical activities in R. Specifically,</p>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>By the end of this workshop, participants will:</p>
 <ul>
-<li>Understand the fundamental syntax of R through readings, practice exercises, demonstrations, and writing R code.</li>
-<li>Apply critical programming language concepts such as data types, iteration, control structures, functions, and boolean operators by writing R programs and through examples</li>
-<li>Import a variety of data formats into R using RStudio</li>
-<li>Prepare or tidy datas for in preparation for analysis</li>
-<li>Query data using SQL and R</li>
-<li>Analyze a data set in R and present findings using the appropriate R packages</li>
-<li>Visualize data attributes using ggplot2 and other R packages.</li>
-</ul>
-</section>
-<section id="purpose-of-statistical-programming-software" class="level2">
-<h2 class="anchored" data-anchor-id="purpose-of-statistical-programming-software">Purpose of statistical programming software</h2>
-<p>Unlike spreadsheet applications (like Excel) or point-and-click statistical analysis software (SPSS), statistical programming software is based around a script-file where the user writes a series of commands to be performed,</p>
-<p><strong>Advantages of statistical programming software</strong></p>
-<ul>
-<li><p>Data analysis process is reproducible and transparent.</p></li>
-<li><p>Due to the open-ended nature of language-based programming, there is far more versatility and customizability in what you can do with data.</p></li>
-<li><p><em>Typically</em> statistical programming software has a much more comprehensive range of built-in analysis functions than spreadsheets etc.</p></li>
-</ul>
-</section>
-<section id="why-do-we-need-analytics" class="level2">
-<h2 class="anchored" data-anchor-id="why-do-we-need-analytics">Why Do We Need Analytics?</h2>
-<p>Before an answer to above question, let us see some of the problems and their solutions in R in multiple domains.</p>
-<section id="healthcare" class="level3">
-<h3 class="anchored" data-anchor-id="healthcare">Healthcare</h3>
-<ul>
-<li><p><strong>Problem:</strong> Every year millions of people are admitted in hospital and billions are spent annually just in the admission process.</p></li>
-<li><p><strong>Solution:</strong> Given the patient history and medical history, a predictive model can be built to identify who is at risk for hospitalization and to what extent the medical equipment should be scaled.</p></li>
-</ul>
-</section>
-<section id="insurance" class="level3">
-<h3 class="anchored" data-anchor-id="insurance">Insurance</h3>
-<ul>
-<li><p><strong>Problem:</strong> Insurance extensively depends on forecasting. It is difficult to decide which policy to accept orreject.</p></li>
-<li><p><strong>Solution:</strong> By using the continuous credit report as input, we can create a model in R that will not only assess risk appetite but also make a predictive forecast as well.</p></li>
-</ul>
-</section>
-<section id="banking" class="level3">
-<h3 class="anchored" data-anchor-id="banking">Banking</h3>
-<ul>
-<li><p><strong>Problem:</strong> Large amount of customer data is generated every day in Banks. While dealing with millions of customers on regular basis, it becomes hard to track their mortgages.</p></li>
-<li><p><strong>Solution:</strong> R builds a custom model that maintains the loans provided to every individual customer which helps us to decide the amount to be paid by the customer over time.</p></li>
-</ul>
-</section>
-</section>
-<section id="why-r" class="level2">
-<h2 class="anchored" data-anchor-id="why-r">Why R?</h2>
-<ul>
-<li>R is a programming and statistical language.</li>
-<li>R is used for data Analysis and Visualization.</li>
-<li>R is simple and easy to learn, read and write.</li>
-<li>R is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc.</li>
-</ul>
-</section>
-<section id="who-uses-r" class="level2">
-<h2 class="anchored" data-anchor-id="who-uses-r">Who uses R?</h2>
-<ul>
-<li>The Consumer Financial Protection Bureau uses R for data analysis</li>
-<li>Statisticians at John Deere use R for time series modeling and geospatial analysis in a reliable and reproducible way.</li>
-<li>Bank of America uses R for reporting.</li>
-<li>R is part of technology stack behind Foursquare’s famed recommendation engine.</li>
-<li>ANZ, the fourth largest bank in Australia, using R for credit risk analysis.</li>
-<li>Google uses R to predict Economic Activity.</li>
-<li>Mozilla, the foundation responsible for the Firefox web browser, uses R to visualize Web activity</li>
-</ul>
-</section>
-<section id="evolution-of-r" class="level2">
-<h2 class="anchored" data-anchor-id="evolution-of-r">Evolution of R</h2>
-<ul>
-<li>R is an implementation of S programming language which was created by John Chambers at Bell Labs.</li>
-<li>R was initially written by Ross Ihaka and Robert Gentleman at the Department of Statistics of the University of Auckland in Auckland, New Zealand.</li>
-<li>R made its first public appearance in 1993.</li>
-<li>A large group of individuals has contributed to R by sending code and bug reports.Since mid-1997 there has been a core group (the “R Core Team”) who can modify the R source code archive.</li>
-<li>In the year 2000 R 1.0.0 released.</li>
-<li>R 3.0.0 was released in 2013.</li>
-</ul>
-</section>
-<section id="features-of-r" class="level2">
-<h2 class="anchored" data-anchor-id="features-of-r">Features of R</h2>
-<ul>
-<li>R supports procedural programming with functions and object-oriented programming with generic functions. Procedural programming includes procedure, records, modules, and procedure calls. While object-oriented programming languageincludes class, objects, and functions.</li>
-<li>Packages are part of R programming. Hence, they are useful in collecting sets of R functions into a single unit.</li>
-<li>R is a well-developed, simple and effective programming language which includes conditionals, loops, user defined recursive functions and input and output facilities.</li>
-<li>R has an effective data handling and storage facility,</li>
-<li>R provides a suite of operators for calculations on arrays, lists, vectors and matrices.</li>
-<li>R provides a large, coherent and integrated collection of tools for data analysis. It provides graphical facilities for data analysis and display either directly at the computer or printing at the papers.</li>
-<li>Rs programming features include database input, exporting data, viewing data, variable labels, missing data, etc.</li>
-<li>R is an interpreted language. So we can access it through command line interpreter.</li>
-<li>R supports matrix arithmetic.</li>
-<li>R, SAS, and SPSS are three statistical languages. Of these three statistical languages, R is the only an open source.</li>
-</ul>
-</section>
-<section id="comparison-to-other-statistical-programming-software" class="level2">
-<h2 class="anchored" data-anchor-id="comparison-to-other-statistical-programming-software">Comparison to other statistical programming software</h2>
-<ul>
-<li><p><strong>Stata</strong>: The traditional choice of (academic) economists.</p>
-<ul>
-<li>Stata is more specifically econometrics focused and is much more command-oriented. Easier to use for standard applications, but if there’s not a Stata command for what you want to do, it’s harder to write something yourself.<br>
-</li>
-<li>Stata is also very different than R in that you can only ever work with one dataset at a time, while in R, it’s typical to have a number of data objects in the environment.</li>
-</ul></li>
-<li><p><strong>SAS</strong>: Similar to Stata, but more commonly used in business &amp; the private sector, in part because it’s typically more convenient for massive datasets. Otherwise, I think it’s seen as a bit older and less user-friendly.</p></li>
-<li><p><strong>Python</strong>: Another option based more on programming from scratch and with less prewritten commands. Python isn’t specific to math &amp; statistics, but instead is a general programming language used across a range of fields.<br>
-Probably the most similar software choice to R at this point, with better general use (and programming ease) at the cost of less package development specific to econometrics/data analysis.</p></li>
-<li><p><strong>Matlab</strong>: Popular in macroeconomics and theory work, not so much in empirical work. Matlab is powerful, but is much more based on programming “from scratch” using matrices and mathematical expressions.</p></li>
-</ul>
-</section>
-<section id="useful-resources-for-learning-r" class="level2">
-<h2 class="anchored" data-anchor-id="useful-resources-for-learning-r">Useful resources for learning R</h2>
-<ul>
-<li><p><strong>DataCamp:</strong> interactive online lessons in R.</p>
-<ul>
-<li>Some of the courses are free (particularly community-written lessons like the one you’ll do today), but for paid courses, DataCamp costs about 300 SEK / mo.</li>
-</ul></li>
-<li><p><strong>RStudio Cheat Sheets:</strong> Very helpful 1-2 page overviews of common tasks and packages in R.</p></li>
-<li><p><strong>Quick-R:</strong> Website with short example-driven overviews of R functionality.</p></li>
-<li><p><strong>StackOverflow:</strong> Part of the Stack Exchange network, StackOverflow is a Q&amp;A community website for people who work in programming. Tons of incredibly good R users and developers interact on StackExchange, so it’s a great place to search for answers to your questions.</p></li>
-<li><p><strong>R-Bloggers:</strong> Blog aggregagator for posts about R. Great place to learn really cool things you can do in R.</p></li>
-<li><p><strong>R for Data Science:</strong> Online version of the book by Hadley Wickham, who has written many of the best packages for R, including the Tidyverse, which we will cover.</p></li>
-</ul>
-</section>
-<section id="textbook" class="level2">
-<h2 class="anchored" data-anchor-id="textbook">Textbook</h2>
-<ul>
-<li><p>Wickham, H. &amp; Grolemund, G. (2018). for Data Science. O’Reilly: New York. Available for free at http://r4ds.had.co.nz (FREE)</p></li>
-<li><p>Sosulski, K. (2018). R Fundamentals. Bookdown: New York. Available at: http://becomingvisual.com/rfundamentals (FREE)</p></li>
+<li><p><strong>Understand the Basics of Easystats:</strong> Gain a solid understanding of the key features and functions offered by easystats, making statistical analysis more accessible.</p></li>
+<li><p><strong>Conduct Statistical Modeling:</strong> Learn how to use easystats to perform various statistical models commonly used in biomedical research, such as linear regression, logistic regression, and mixed-effects models.</p></li>
+<li><p><strong>Create Informative Visualizations:</strong> Explore the visualization capabilities of easystats, enabling participants to effectively communicate their findings through clear and compelling charts and graphs.</p></li>
+<li><p><strong>Enhance Reporting Skills:</strong> Acquire skills in reporting statistical results in a concise and interpretable manner, suitable for scientific publications and presentations.</p></li>
+<li><p><strong>Hands-On Practice:</strong> Engage in practical exercises and case studies to reinforce the concepts learned during the workshop, ensuring participants leave with practical skills they can apply immediately to their research.</p></li>
 </ul>
 </section>
 <section id="required-software" class="level2">
 <h2 class="anchored" data-anchor-id="required-software">Required software</h2>
 <ul>
-<li>R: http://www.r-project.org/ (FREE)</li>
-<li>RStudio (additional libraries required): http://www.rstudio.com/ (FREE)</li>
+<li>R: <a href="http://www.r-project.org/" class="uri">http://www.r-project.org/</a> (FREE)</li>
+<li>RStudio (additional libraries required): <a href="http://www.rstudio.com/" class="uri">http://www.rstudio.com/</a> (FREE)</li>
 </ul>
 </section>
 <section id="recording-of-classes" class="level2">
 <h2 class="anchored" data-anchor-id="recording-of-classes">Recording of classes</h2>
 <p>Class lectures will be recorded automatically using cloud. The links will be posted to CHIRAL Classes when they are available.</p>
 </section>
-<section id="learning-resources" class="level2">
-<h2 class="anchored" data-anchor-id="learning-resources">Learning resources</h2>
-<ul>
-<li>R Project: http://www.r-project.org/</li>
-<li>RStudio (additional libraries required): http://www.rstudio.com</li>
-<li>Quick-R http://www.statmethods.net/</li>
-<li>Google’s R Style Guide:http://google-styleguide.googlecode.com/svn/trunk/Rguide.xml</li>
-</ul>
-</section>
 <section id="is-this-course-for-me" class="level2">
 <h2 class="anchored" data-anchor-id="is-this-course-for-me">Is this course for me?</h2>
-<p>If your answer to any of the following questions is “yes”, then this is the right workshop for you.</p>
+<p>This workshop is tailored for biomedical researchers at various career stages, including:</p>
 <ul>
-<li><p>Do you make summary tables in R (data, survey data, regression models, time-to-event data, adverse event reports)?</p></li>
-<li><p>Do you want your workflow to be reproducible?</p></li>
-<li><p>Are you often frustrated with the immense amount of code required to create great-looking tables in R?</p></li>
+<li><p><strong>Early Career Researchers:</strong> Those looking to build a strong foundation in statistical analysis for their research projects.</p></li>
+<li><p><strong>Clinical Researchers:</strong> Professionals involved in clinical trials and medical research seeking to enhance their statistical skills.</p></li>
+<li><p><strong>Laboratory Scientists:</strong> Researchers working in laboratory settings aiming to effectively analyze and interpret experimental data.</p></li>
+<li><p><strong>Postgraduate Students:</strong> Master’s and Ph.D.&nbsp;students in biomedical fields who want to strengthen their statistical analysis capabilities.</p></li>
+<li><p><strong>Undergraduate Students:</strong> If you are an undergraduate student aspiring to delve into the world of statistical analysis in biomedical research, this workshop provides a practical and accessible introduction. You will gain valuable skills that can be applied to your coursework, research projects, and future academic pursuits.</p></li>
+<li><p><strong>Anyone in Biomedical Research:</strong> If you work with data in a biomedical context and want to improve your statistical analysis, visualization, and reporting skills, this workshop is for you.</p></li>
 </ul>
-<p>The workshop is designed for those with some experience in R. It will be expected that you can perform basic data manipulation. Experience with the {tidyverse} and the <code>%&gt;%</code> operator is a plus, but not required.</p>
 </section>
 <section id="prework" class="level2">
 <h2 class="anchored" data-anchor-id="prework">Prework</h2>
@@ -425,9 +286,8 @@ Probably the most similar software choice to R at this point, with better genera
 <li><p>Recent version of <strong>RStudio</strong></p></li>
 <li><p>Most recent release of the <a href="https://www.danieldsjoberg.com/gtsummary/"><strong>gtsummary</strong></a> and other packages used in workshop.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>instll_pkgs <span class="ot">&lt;-</span> </span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">c</span>(<span class="st">"gtsummary"</span>, <span class="st">"tidyverse"</span>, <span class="st">"labelled"</span>, <span class="st">"usethis"</span>, </span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"causaldata"</span>, <span class="st">"fs"</span>, <span class="st">"skimr"</span>, <span class="st">"car"</span>, <span class="st">"emmeans"</span>)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(instll_pkgs)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">c</span>(<span class="st">"tidyverse"</span>, <span class="st">"gtsummary"</span>, <span class="st">"easystats"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(instll_pkgs)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 <li><p>Ensure you can knit R markdown documents</p>
 <ul>
 <li>Open RStudio and create a new Rmarkdown document</li>
@@ -444,24 +304,26 @@ Probably the most similar software choice to R at this point, with better genera
 <li><p>Please be aware that there is the option to use closed captioning:</p></li>
 </ul>
 </section>
-<section id="instructors" class="level2">
-<h2 class="anchored" data-anchor-id="instructors">Instructors</h2>
-<section id="md.-jubayer-hossain" class="level4">
-<h4 class="anchored" data-anchor-id="md.-jubayer-hossain">Md. Jubayer Hossain</h4>
+<section id="instructor" class="level2">
+<h2 class="anchored" data-anchor-id="instructor">Instructor</h2>
+<section id="bio" class="level3">
+<h3 class="anchored" data-anchor-id="bio">Bio</h3>
 <p><img src="images/JHossain.jpg" class="img-fluid" style="float:right;padding: 0 0 0 10px;" alt="Headshot of Jubayer" width="200"></p>
-<p><a href="">Md. Jubayer Hossain</a> is the Founder and Data Analyst at <a href="">CHIRAL Bangladesh</a>. CHIRAL Bangladesh is a non-profit organization dedicated to health research to improve lives in Bangladesh. He aspires to maximize the quality of life of the human around me by working at the intersection of education, technology, and health research. His research interests include health data science and machine learning in healthcare.</p>
-<p><br></p>
+<p>Hi, I am <a href="https://hossainlab.github.io/">Jubayer</a>, a highly motivated biomedical research enthusiasts with a Master of Science in Microbiology focus on public health and health data science. Research experience designing and implementing projects for biomedical data analysis (including next‑generation sequencing, RNA‑seq , and ssRNA‑seq ). I am interested in applying machine learning/deep learning tools and techniques in the context of disease diagnosis and large data analytics for public health while focusing on bridging the gap between computational and experimental laboratories through highly engaging and fruitful collaborations</p>
+<p>Python is my primary language for data analysis and machine learning. I also have a basic understanding of R, Julia, SPSS, QGIS, and SQL.</p>
+<p>This <a href="https://hossainlab.github.io/">page</a> highlights my teaching and research projects. Please reach out if you want to collaborate or have questions.</p>
 </section>
-<section id="md.-wahidul-islam" class="level4">
-<h4 class="anchored" data-anchor-id="md.-wahidul-islam">Md. Wahidul Islam</h4>
-<p><img src="images/wahidul.jpg" class="img-fluid" style="float:right;padding: 0 0 0 10px;" alt="Headshot of Wahidul" width="200"></p>
-<p>Wahidul Islam is an undergraduate student in the Department of Microbiology at Jagannath University, Dhaka, Bangladesh. Bioinformatics, Immunology, Cell Biology, Biostatistics, Public health, and Microbiology are some of his research interests. Currently, he is working as a research assistant in Population Health Studies Division &amp; Genomic Data Science Center at CHIRAL Bangladesh. He also leads the seminar and workshop team at CHIRAL Bangladesh.</p>
-<p><br></p>
+<section id="skills" class="level3">
+<h3 class="anchored" data-anchor-id="skills">Skills</h3>
+<p><strong>Programming Languages:</strong> Python, R, SQL, Julia, JavaScript; <strong>Data Science:</strong> scikit-learn, PyCaret, Dask, PySpark; <strong>GIS &amp; Remote Sensing:</strong> ArcGIS, Geopandas, Xarray, Giovani; <strong>Analytics Softwares:</strong> SPSS, PowerBI, Microsoft Excel; <strong>Survey Tools:</strong> RedCap, KoboToolBox, EpiCollect, Google Forms; <strong>Academic Writing Tools:</strong> Microsoft Word, LaTeX, Mendeley; <strong>Bioinformatics:</strong> BioPython, Bioconductor, BioPandas, Galaxy, NGS, RNASeq, ssRNASeq; <strong>Miscellaneous Skills:</strong> UNIX, Version Control(Git), Web Scraping, APIs.</p>
 </section>
-<section id="muhibullah-shahjahan" class="level4">
-<h4 class="anchored" data-anchor-id="muhibullah-shahjahan">Muhibullah Shahjahan</h4>
-<p><img src="images/muhibullah.jpg" class="img-fluid" style="float:right;padding: 0 0 0 10px;" alt="Headshot of muhibullah" width="200"></p>
-<p>Muhibullah is an undergraduate student in the Department of Microbiology at Jagannath University and health data analysis, bioinformatics are some of his research interests. Currently, he is working as a research assistant at CHIRAL Bangladesh.</p>
+<section id="selected-publications" class="level3">
+<h3 class="anchored" data-anchor-id="selected-publications">Selected Publications</h3>
+<ol type="1">
+<li><strong>Hossain, M.J.</strong>, Islam, M.W., Munni, U.R. et al.&nbsp;Health-related quality of life among thalassemia patients in Bangladesh using the SF-36 questionnaire. Scientific Reports 13, 7734 (2023). <a href="https://doi.org/10.1038/s41598-023-34205-9" class="uri">https://doi.org/10.1038/s41598-023-34205-9</a></li>
+<li>Towhid, S. T., <strong>Hossain, M. J.</strong>, Sammo, M. A. S., &amp; Akter, S. (2022). Perception of Students on Antibiotic Resistance and Prevention: An Online, Community-Based Case Study from Dhaka, Bangladesh. European Journal of Biology and Biotechnology, 3(3), 14–19. <a href="https://doi.org/10.24018/ejbio.2022.3.3.341" class="uri">https://doi.org/10.24018/ejbio.2022.3.3.341</a></li>
+<li><strong>Hossain, M.J.</strong>, Towhid ST, Sultana S, Mukta SA, Gulshan R, Miah MS (2022). <em>Knowledge and Attitudes towards Thalassemia among Public University Students in Bangladesh</em>. Microbial Bioactives, 5(2), <a href="https://doi.org/10.25163/microbbioacts.526325" class="uri">https://doi.org/10.25163/microbbioacts.526325</a>.</li>
+</ol>
 
 
 </section>
@@ -718,7 +580,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right">© Copyright 2022, Md. Jubayer Hossain</div>
+    <div class="nav-footer-right">© Copyright 2024, Md. Jubayer Hossain</div>
   </div>
 </footer>
 

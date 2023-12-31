@@ -12,7 +12,7 @@ website:
   title: "Easy Statistical Modeling, Visualization, and Reporting"
   description: "Homepage for  Easy Statistical Modeling, Visualization, and Reporting"
   site-url: "https://chiraltraining.github.io/easystats/"
-  favicon: "images/trans - gt.png"
+  favicon: "images/logo.png"
   
   repo-url: https://github.com/hossainlab/clinical-reporting-gtsummary-rmed
   repo-actions: [edit, issue]
@@ -20,31 +20,42 @@ website:
   open-graph: true
   twitter-card:
     creator: "@hossainlab"
-    image: "/images/two-hex-logo.png"
+    image: "/images/logo_wall.png"
 
   page-footer:
     left: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    right: "&copy; Copyright 2022, Md. Jubayer Hossain"
+    right: "&copy; Copyright 2024, Md. Jubayer Hossain"
     background: "#708090"
 
   sidebar:
     background: "#708090"
-    logo: "images/Rlogo.png"
+    logo: "images/logo.png"
     pinned: true
     align: center
     tools:
       - icon: github
-        href: https://github.com/hossainlab/
+        href: https://github.com/chiraltraining/
         text: GitHub
+      - icon: facebook
+        href: https://www.facebook.com/chiralbd.org
+        text: Facebook
+      - icon: twitter
+        href: https://twitter.com/chiralbd
+        text: Twitter
+      - icon: linkedin
+        href: https://www.linkedin.com/company/chiral-bangladesh/mycompany/?viewAsMember=true
+        text: LinkedIn
         
     style: docked
     contents:
      - href: index.qmd
        text: Home
      - href: material.qmd
-     - href: sessions.qmd
+       text: Material
+     - href: setup.qmd
+       text: Setup
      - href: q-and-a.qmd
-       text: Workshop Q & A
+       text: Q & A
      - href: license.qmd
        text: License
 
